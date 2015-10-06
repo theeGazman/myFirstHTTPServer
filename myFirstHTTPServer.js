@@ -15,7 +15,7 @@ var http = require('http');
 //What does it do?
 
 //Lets define a port we want to listen to
-const PORT=80; 
+var PORT = process.env.OPENSHIFT_NODEJS_PORT || 8080
 //What is a port?
 //Why port 80?
 //Why do we this? 
