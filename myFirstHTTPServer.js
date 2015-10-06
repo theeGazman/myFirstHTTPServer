@@ -15,7 +15,9 @@ var http = require('http');
 //What does it do?
 
 //Lets define a port we want to listen to
-const PORT=8080; 
+const PORT=80; 
+//What is a port?
+//Why port 80?
 //Why do we this? 
 //What does it do?
 
