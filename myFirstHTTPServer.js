@@ -7,6 +7,7 @@
  * 
  * Developers: 
  * 1. Stephen Bennett
+ * 2. Garry Coakley
  * 
  */
 //Lets require/import the HTTP module. 
@@ -24,7 +25,7 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('Yes! It Works!! Path Hit: ' + request.url);
+    response.end('Yes! It Wooorks!! Path Hit: ' + request.url);
 }
 //What is a request?
 //What is a response?
